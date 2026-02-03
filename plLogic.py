@@ -43,3 +43,5 @@ if __name__ == "__main__":
 
     expr3 = "(not p or q) or (not q or p)"
     print(f"Is '{expr3}' a tautology? {is_tautology(expr3)}")
+    exp4 = "p or not p"
+    print(f"Is '{exp4}' a tautology? {is_tautology(exp4)}")
