@@ -1,9 +1,9 @@
 import itertools
 
-def is_tautology(expression):
+def is_tautology(expression): #function
     """
     Checks if a given propositional logic expression is a tautology.
-    Variables must be lowercase letters (p, q, r, etc.)
+    Variables must be lowercase letters (p, q, r, a , z etc.)
     Supported operators:
     and, or, not, == (iff), != (xor)
 
